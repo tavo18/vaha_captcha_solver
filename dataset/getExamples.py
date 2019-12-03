@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from PIL import Image
 from io import BytesIO
 
-EXAMPLES = 600
-DEST_FOLDER = "/home/tavo/Escritorio/vaha captcha solver/dataset/examples/"
+EXAMPLES = 20
+DEST_FOLDER = "/home/tavo/Escritorio/vaha_captcha_solver/dataset/test/"
 URL_CAPTCHA = "https://vahan.nic.in/nrservices/cap_img.jsp"
 
 headers = {
